@@ -1,0 +1,30 @@
+/* ResponsiveTable.css */
+.responsive-table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+  }
+  
+  th, td {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 600px) {
+    /* Adjust styles for mobile devices */
+    th, td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    th {
+      text-align: left;
+    }
+  }
+  

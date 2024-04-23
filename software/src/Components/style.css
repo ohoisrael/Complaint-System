@@ -1,0 +1,14 @@
+.loginForm {
+    background-color: rgba(1, 32, 93, 0.6);
+    color: white;
+}
+
+ul li :hover {
+    background-color: gray;
+}
+
+.product_image {
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+}

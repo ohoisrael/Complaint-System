@@ -1,0 +1,20 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.bg-darkblue {
+    background-color: #002451 !important;
+    /* Add !important to override Bootstrap's default styles */
+  }
+.bg-lightblue {
+    background-color: #D0E1FD !important;
+  }
+.bg-liteblue {
+  background-color: #c3edf5 !important;
+}  
+
+  
